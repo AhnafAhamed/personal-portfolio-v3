@@ -1,12 +1,13 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
-import styles from '@/styles/Home.module.css'
-import MainContainer from './components/MainContainer'
+import styles from '@/styles/HomeIndex.module.css'
+import MainContainer from '../components/MainContainer'
+import Home from '../components/Home'
 
 const inter = Inter({ subsets: ['latin'], weights: [400, 500, 600, 700] })
 
-export default function Home() {
+export default function HomeIndex() {
   return (
     <>
       <Head>
@@ -17,7 +18,7 @@ export default function Home() {
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
         <MainContainer>
-          <h1>Hello</h1>
+          <Home />
         </MainContainer>
       </main>
     </>
