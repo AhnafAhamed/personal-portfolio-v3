@@ -17,8 +17,14 @@ const Home = () => {
             <span>Freelancer</span>
           </h2>
           <p className={styles.description}>
-            Front-end developer with 2+ years of experience in building web
-            applications.
+            If you are looking for a front-end developer with the skills and
+            experience to help you build your next sass or website, I would love
+            to hear from you.
+            <br />
+            <br />
+            Please feel free to take a look around my portfolio and don&apos;t
+            hesitate to contact me if you have any questions or if you would
+            like to discuss your next project.
           </p>
         </div>
         <Image
@@ -31,16 +37,27 @@ const Home = () => {
       </div>
 
       <div className={styles.socialIcons}>
-        <Link href="https://twitter.com/ahnfahmd">
-        <Twitter />
+        <Link
+          className={styles.iconWrapper}
+          href="https://github.com/AhnafAhamed"
+        >
+          <Github />
         </Link>
-        <Link href="https://www.linkedin.com/in/ahnafahamed">
-        <Linkedin />
+        <Link
+          className={styles.iconWrapper}
+          href="https://www.linkedin.com/in/ahnafahamed"
+        >
+          <Linkedin />
         </Link>
-        <Link href="https://github.com/AhnafAhamed">
-        <Github />
+        <Link
+          className={styles.iconWrapper}
+          href="https://twitter.com/ahnfahmd"
+        >
+          <Twitter />
         </Link>
       </div>
+
+      <Link className={styles.cta} href="/contact">Hire Me</Link>
     </div>
   );
 };

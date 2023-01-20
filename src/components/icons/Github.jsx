@@ -4,7 +4,7 @@ const Github = () => (
     width={20}
     height={20}
     aria-hidden="true"
-    class="h-5 w-5"
+    class="icon"
     astro-icon="feather:github"
   >
     <path
