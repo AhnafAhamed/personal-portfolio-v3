@@ -4,7 +4,7 @@ const Linkedin = () => (
     height={20}
     width={20}
     aria-hidden="true"
-    class="icon"
+    className="icon"
     astro-icon="feather:linkedin"
   >
     <g

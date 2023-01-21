@@ -4,7 +4,7 @@ const Twitter = () => (
     height={20}
     width={20}
     aria-hidden="true"
-    class="icon"
+    className="icon"
     astro-icon="feather:twitter"
   >
     <path
