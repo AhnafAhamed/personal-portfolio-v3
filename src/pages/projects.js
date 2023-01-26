@@ -1,9 +1,10 @@
+import BaseLayout from "@/components/BaseLayout"
+
 const projects = () => {
     return (
-    <section>
-      <h1>Projects</h1>
-      <p>Projects Page</p>
-    </section>
+    <BaseLayout>
+        <h3>Projects</h3>
+    </BaseLayout>
   )
 }
 
