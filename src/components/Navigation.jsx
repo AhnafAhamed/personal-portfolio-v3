@@ -13,10 +13,10 @@ const Navigation = () => {
         <Link href="/" className={currentRoute === '/' ? styles.active : ''}>Home</Link>
       </li>
       <li className={styles.navigationListItem}>
-        <Link href="/about">Projects</Link>
+        <Link href="/projects" className={currentRoute === '/projects' ? styles.active : ''}>Projects</Link>
       </li>
       <li className={styles.navigationListItem}>
-        <Link href="/contact">Blogs</Link>
+        <Link href="/blog">Blogs</Link>
       </li>
     </ul>
   </nav>
